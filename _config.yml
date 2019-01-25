@@ -173,6 +173,6 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Currentlly working on: Red Hat Certified System Administrator Certification
+    Currentlly working on: <a href='https://www.redhat.com/en/services/certification/rhcsa'>Red Hat Certified System Administrator Certification</a>
 
 #EOF

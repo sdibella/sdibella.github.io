@@ -51,8 +51,8 @@ ga:
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
 #avatar: "https://avatars3.githubusercontent.com/u/32414568"
-avatar: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Beethoven_Ferdinand_Waldmuller_1823.jpg"
-#avatar:
+#avatar: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Beethoven_Ferdinand_Waldmuller_1823.jpg"
+#avatar: "images/profile.jpg"
 
 
 # All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.

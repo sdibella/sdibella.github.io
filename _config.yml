@@ -14,17 +14,17 @@ sass:
 # Main Headline, name required, subtitle optional
 name: Stefan P. DiBella
 #subtitle:
-subtitle: Cloud Expert
+subtitle: Systems Integration Engineer
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title:
+title: Stefan's Homepage
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
     description: Stefan P. DiBella's professional page
-    keywords: aws, cloud, architect
+    keywords: systems, software, aws, cloud, architect
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
@@ -173,6 +173,6 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Currentlly working on: <a href='https://www.redhat.com/en/services/certification/rhcsa'>Red Hat Certified System Administrator Certification</a>
+    Currentlly working on: <a href='https://aws.amazon.com/certification/certified-solutions-architect-associate/'>AWS Certified Solutions Architect</a>
 
 #EOF

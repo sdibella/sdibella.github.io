@@ -14,7 +14,7 @@ sass:
 # Main Headline, name required, subtitle optional
 name: Stefan P. DiBella
 #subtitle:
-subtitle: IT Solutions
+subtitle: Solutions Specialists
 
 # Title attribute of HTML Page, uses 'name' from above if empty
 title: Stefan's Homepage
@@ -23,8 +23,8 @@ title: Stefan's Homepage
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
-    description: Stefan P. DiBella's professional page
-    keywords: systems, software, aws, cloud, architect, azure
+    description: Stefan P. DiBella's Professional Page
+    keywords: systems, software, aws, cloud, architect, azure, dns, windows, networking, cost, firewall, CRM, solutions
     crawl: index,follow
 
 # website address when deployed, also given as canonical link

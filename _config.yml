@@ -14,7 +14,7 @@ sass:
 # Main Headline, name required, subtitle optional
 name: Stefan P. DiBella
 #subtitle:
-subtitle: Systems Integration Engineer
+subtitle: IT Solutions
 
 # Title attribute of HTML Page, uses 'name' from above if empty
 title: Stefan's Homepage
@@ -24,7 +24,7 @@ title: Stefan's Homepage
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
     description: Stefan P. DiBella's professional page
-    keywords: systems, software, aws, cloud, architect
+    keywords: systems, software, aws, cloud, architect, azure
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
@@ -125,7 +125,7 @@ links:
       icon: fab fa-lastfm
   - github:
       name: GitHub
-      show: true
+      show: false
       href: https://github.com/sdibella
       icon: fab fa-github
   - codepen:

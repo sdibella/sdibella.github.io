@@ -173,6 +173,6 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Currentlly working on: <a href='https://aws.amazon.com/certification/certified-solutions-architect-associate/'>AWS Certified Solutions Architect</a>
+
 
 #EOF

@@ -14,27 +14,27 @@ sass:
 # Main Headline, name required, subtitle optional
 name: Stefan P. DiBella
 #subtitle:
-subtitle: Solutions Specialist
+subtitle: Solutions Engineer
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Stefan's Homepage
+title: Stefan's Professional Page
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
-    description: Stefan P. DiBella's Professional Page
-    keywords: systems, software, aws, cloud, architect, azure, dns, windows, networking, cost, firewall, CRM, solutions
+    description: One line of text describing the content of the page in less than 140 characters.
+    keywords: foo, bar, baz
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: https://github.com/sdibella/sdibella.github.io
+url: https://tsjensen.github.io/fuse-core/
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
 # If not empty, be careful to keep the leading slash, and don't add a slash at the end.
 #baseurl: ''
-baseurl: ''
+baseurl: '/page'
 
 # Enable Google Analytics. Leave empty (just "ga:" with subitems commented out) to disable.
 # In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
@@ -42,17 +42,25 @@ baseurl: ''
 # https://support.google.com/analytics/answer/2763052
 #ga:
 ga:
-    account: 'UA-120960520-1'
+    account: ''
     cookieconsent: true
     anonymizeip: true
+
+# Plausible.io Analytics (alternative to Google Analytics that does not need cookies -> no cookie consent required)
+# A config setting is required in plausible to enable tracking of the outbound links. Details described here:
+# https://plausible.io/docs/outbound-link-click-tracking
+# Leave empty (just "plausible:" with subitems commented out) to disable.
+#plausible:
+plausible:
+    domain: ''
 
 
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-#avatar: "https://avatars3.githubusercontent.com/u/32414568"
-#avatar: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Beethoven_Ferdinand_Waldmuller_1823.jpg"
-avatar: "images/profile.jpg"
+avatar: "https://avatars0.githubusercontent.com/u/8897534"
+#avatar: "images/profile.jpg"
+#avatar:
 
 
 # All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
@@ -65,8 +73,8 @@ links:
       icon: fab fa-xing
   - linkedin:
       name: LinkedIn
-      show: true
-      href: https://linkedin.com/in/stefandibella/
+      show: false
+      href: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME/
       icon: fab fa-linkedin
   - googleplus:
       name: Google+
@@ -125,7 +133,7 @@ links:
       icon: fab fa-lastfm
   - github:
       name: GitHub
-      show: false
+      show: true
       href: https://github.com/sdibella
       icon: fab fa-github
   - codepen:
@@ -161,7 +169,7 @@ links:
   - email:
       name: Email
       show: true
-      href: mailto:mail@stefandibella.com
+      href: mailto:stefan.dibella@outlook.com
       icon: fas fa-envelope
   - publickey:
       name: PGP Key
@@ -173,6 +181,7 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-
+    Any (multiline) text containing simple HTML,
+    such as links or ... lorem ipsum.
 
 #EOF
